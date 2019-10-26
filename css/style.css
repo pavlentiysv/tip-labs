@@ -1,7 +1,41 @@
-* {
-	padding: 0;
-	margin: 0;
-	border: none;
-	outline: none;
-	box-sizing: border-box;
+.home-icon {
+	margin: 8px;
+}
+
+.header {
+	background: #95afc0;
+	display: flex;
+	flex-direction: row;	
+	justify-content: space-between;
+	align-items: center;
+	padding: 4px 20px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav-links {
+	display: flex;
+	flex-direction: row;
+}
+
+.nav-link {
+	margin: 0 24px;
+	text-transform: uppercase;
+}
+
+.link {
+	text-decoration: none;
+	color: #30336b;
+	font-size: 24px;
+	font-weight: 600;
+}
+
+.link:hover {
+	color: #6568aa;
+}
+
+.title {
+	font-style: italic;	
+	color: #30336b;
+	font-size: 24px;
+	font-weight: 600;
 }
