@@ -56,3 +56,33 @@ body {
   padding-bottom: 20px;
   padding-top: 20px;
 }
+
+.wrapper-anwers {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.tests {
+  font-size: 18px;
+}
+
+.tests * label {
+  font-size: 14px;
+}
+
+.tests form {
+  padding: 10px;
+  background: #eae9e9c9;
+  border-bottom: 0 none;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.46);
+  margin: 10px 0;
+}
+
+.submit-test {
+  font-size: 14px;
+  border: 1px solid black;
+  background: transparent;
+  padding: 3px 8px;
+  margin-bottom: 10px;
+}
